@@ -1,0 +1,37 @@
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+h1, h2, h3 {
+    color: #0B3C6F;
+}
+
+div[data-testid="stMetric"] {
+    background-color: #f8fafc;
+    border: 1px solid #dbe4f0;
+    padding: 14px;
+    border-radius: 12px;
+}
+
+div.stButton > button {
+    background-color: #0B3C6F;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 0.6rem 1rem;
+    font-weight: 600;
+}
+
+div.stButton > button:hover {
+    background-color: #B22222;
+    color: white;
+}
+
+.domain-box {
+    background-color: #f8fafc;
+    border-left: 5px solid #0B3C6F;
+    padding: 10px 14px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
